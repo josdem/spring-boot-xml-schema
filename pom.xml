@@ -12,7 +12,7 @@
 	<artifactId>spring-boot-xml-schema</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<description>This project shows how to use XML schemas in a Spring Boot application</description>
 
 	<properties>
 		<java.version>11</java.version>
