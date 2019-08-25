@@ -1,3 +1,9 @@
-package.com.jos.dem.springboot.xml.schema.service;
+package com.jos.dem.springboot.xml.schema.service;
 
-public interface PersonService {}
+import
+
+public interface PersonService {
+
+  Person create();
+
+}

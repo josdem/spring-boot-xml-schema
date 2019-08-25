@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <person xmlns="urn:nonstandard:person"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="urn:nonstandard:person
+     xsi:schemaLocation="urn:com:jos:dem:entities
      file:./person.xsd">
 
-   <firstname>Jose</fistname>
+  <firstname>Jose</fistname>
   <lastname>Morales</lastname>
   <address>
     30 Frank Llord,
