@@ -6,8 +6,8 @@
     <xs:element name="Person" />
     <xs:complexType name="person">
       <xs:sequence>
-        <xs:element name="firstname" type="xs:string" />
-        <xs:element name="lastname" type="xs:string" />
+        <xs:element name="firstName" type="xs:string" />
+        <xs:element name="lastName" type="xs:string" />
         <xs:element name="address" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
