@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <person xmlns="urn:nonstandard:person"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="urn:nonstandard:test
+     xsi:schemaLocation="urn:nonstandard:person
      file:./person.xsd">
 
    <firstname>Jose</fistname>
