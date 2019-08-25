@@ -9,9 +9,6 @@ public class PersonServiceImpl implements PersonService {
 
   public Person create(){
     Person person =  new Person();
-    person.setFirstname(firstname);
-    person.setLastname(lastname);
-    person.setAddress(address);
     return person;
   }
 

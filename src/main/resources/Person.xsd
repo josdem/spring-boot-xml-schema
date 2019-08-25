@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
             elementFormDefault="qualified"
             xmlns="urn:com:jos:dem:entities"
             targetNamespace="urn:com:jos:dem:entities">
-    <xsd:element name="person" />
-    <xsd:complexType name="person">
-      <xsd:sequence>
-        <xsd:element name="firstname" type="xsd:string" />
-        <xsd:element name="lastname" type="xsd:string" />
-        <xsd:element name="address" type="xsd:string" />
-      </xsd:sequence>
-    </xsd:complexType>
-</xsd:schema>
+    <xs:element name="Person" />
+    <xs:complexType name="person">
+      <xs:sequence>
+        <xs:element name="firstname" type="xs:string" />
+        <xs:element name="lastname" type="xs:string" />
+        <xs:element name="address" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+</xs:schema>
