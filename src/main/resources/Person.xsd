@@ -3,12 +3,12 @@
             elementFormDefault="qualified"
             xmlns="urn:com:jos:dem:entities"
             targetNamespace="urn:com:jos:dem:entities">
-    <xsd:element name="person" type="Person" />
-    <xsd:complexType>
-      <xs:sequence>
+    <xsd:element name="person" />
+    <xsd:complexType name="person">
+      <xsd:sequence>
         <xsd:element name="firstname" type="xsd:string" />
         <xsd:element name="lastname" type="xsd:string" />
         <xsd:element name="address" type="xsd:string" />
-      </xs:sequence>
+      </xsd:sequence>
     </xsd:complexType>
 </xsd:schema>
