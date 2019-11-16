@@ -15,8 +15,8 @@ import com.jos.dem.springboot.xml.schema.service.PersonService;
 @SpringBootTest
 class DemoApplicationTests {
 
-	@Autowired
-	private PersonService personService;
+  @Autowired
+  private PersonService personService;
 
   @Test
   @DisplayName("Should create person")
