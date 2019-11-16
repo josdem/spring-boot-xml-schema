@@ -9,6 +9,13 @@ This project shows how to use XML schemas in a Spring Webflux application
 mvn spring-boot:run
 ```
 
+#### To test the project
+
+```bash
+mvn test
+```
+
+
 #### Read this as reference:
 
 * https://josdem.io/techtalk/spring/spring_boot_xml_schema/
