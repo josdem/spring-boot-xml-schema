@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,8 +18,9 @@ class DemoApplicationTests {
 	@Autowired
 	private PersonService personService;
 
-	@Test
-	void shouldCreatePerson() {
+  @Test
+  @DisplayName("Should create person")
+  void shouldCreatePerson() {
     Person person = personService.create();
 
     assertAll("person",
